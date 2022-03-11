@@ -1,18 +1,20 @@
 body{
-    height: 942px;
-    width: 695px;
+    height: 97.21362229102168vh;
+    width: 71.7234262125903vh;
     margin-left: auto;
     margin-right: auto;
 }
 h1{
-    
+    position: relative;
+    top: 0rem;
+    left: 14rem;
     color: rgb(85, 129, 115);
 }
 
 }
 header{
     position: relative;
-    left: 600px;
+    left: 61.919504643962846vh;
 }
 
 .gmail{
@@ -30,31 +32,22 @@ h2{
     text-align: left;
 }
 
+@media screen and (max-width:578px){
+    body{
+        font-size: 2.5vw;
+    }
+    
+}
 
-.annee1{
-position: relative;
-bottom: 30px;
-}
-.annee2{
-position: relative;
-bottom:0px
-}
-.annee3{
-position: relative;
-bottom: 0px;
-}
-.annee4{
-    position: relative;
-}
 .ligne { 
     display: block; 
     margin-top: 0.5em; 
     margin-bottom: 0.5em; 
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-left: 2.063983488132095vh; 
+    margin-right: 2.063983488132095vh; 
     overflow: hidden; 
     border-style: inset; 
-    border-width: 5px;
+    border-width: 0.5159958720330238vh;
 }
 #contact_info{
 text-align: center;    
@@ -68,12 +61,12 @@ button {
     background-color: #647a72;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 2.063983488132095vh;
   text-align: right;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1.6511867905056758vh;
+  margin: 0.41279669762641896vh 0.20639834881320948vh;
 }
 
 .dark {
