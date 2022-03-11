@@ -62,3 +62,21 @@ text-align: center;
 .Tamoil,.LV,.newcafé,.CA{
     color: rgb(85, 129, 115);
 }
+
+button {
+    float: right;
+    background-color: #647a72;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+}
